@@ -6,8 +6,6 @@ services:
     ports:
       - "8020:80"
 
-    volumes:
-      - ./data:/data
     
     environment:
       - EPEXPREDICTOR_DATADIR=/data/
